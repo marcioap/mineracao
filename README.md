@@ -16,4 +16,4 @@ root@ rede :/home/marcio/ Documentos# cd anaconda
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
 root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
 # Será gerado um link para acesso ao Jupyter. Ex:localhost:8888
-No meu caso, como utilizei uma máquina virtual gerou: 10.2.0.15:8888
+No meu caso, como utilizei uma máquina virtual gerou: 10.0.2.15:8888
