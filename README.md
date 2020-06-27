@@ -14,4 +14,4 @@ root@ rede :/home/marcio/ Documentos# mkdir anaconda
 # Acessar o diretório Anaconda
 root@ rede :/home/marcio/ Documentos# cd anaconda
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
-root@ rede :/home/marcio/ Documentos# docker-compose up
+root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
