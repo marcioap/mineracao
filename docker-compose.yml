@@ -1,0 +1,26 @@
+version: '3'
+services:
+  notebook:
+    container_name: Teste
+    image:  anaconda
+    restart: always
+    volumes:
+      - ./notebooks:/opt/notebooks
+      - ./data:/opt/data
+      - $HOME/.aws/:/home/jovyan/.aws:ro
+    environment:
+      - GRANT_SUDO=yes
+    ports:
+      - "8888:8888"
+    build: .
+
+  #nginx
+  webserver:
+    image: nginx:latest
+    tty: true
+    restart: unless-stopped
+    ports: 
+      - "82:82"
+      - "443:443"
+    
+
