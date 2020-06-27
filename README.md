@@ -24,6 +24,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sbn
 %matplotlib inline
-dados = pd.read('<pasta do dataset>')
+dados = pd.read('pasta onde se encontra o dataset')
 # Visualisar o dados do data set
-  dados.head()
+  dataset.head()
+# Tratar dados para os valores nulo / branco ficarem com valor 0
+ dataset.fillna(dataset.mean(0))
+# Verificar se houve a alteração
+dataset.isnull() . sum()
+# Informações sobre os atributos
+dataset.info()
+# Geração de graficos / Histograma
+dataset[mensalidade].hist(bins=30)
+
