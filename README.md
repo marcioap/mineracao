@@ -17,7 +17,7 @@ root@ rede :/home/marcio/ Documentos# cd anaconda
 root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
 # Será gerado um link para acesso ao Anaconda / Jupyter. Ex:localhost:8888
 No meu caso, como utilizei uma máquina virtual gerou: 10.0.2.15:8888
-# Com o jupyter aberto, crie um arquivo: e então, só importa as blibliotecas do Python:
+# Com o jupyter aberto, crie um arquivo: e então, só importa as bibliotecas do Python:
 # Neste caso importaremos os pacotes e o dataset
 import pandas as pd
 import numpy as np
