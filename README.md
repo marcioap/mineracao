@@ -19,6 +19,7 @@ root@rede: ativ#  apt-get install docker-ce docker.io docker-compose -y
 ![tela_docker](https://user-images.githubusercontent.com/17771257/86512253-d9073280-bdd6-11ea-8ce4-2b9df2489090.JPG)
 # Crie o diretório ANACONDA dentro de Documentos
 root@ rede :/home/marcio/ Documentos# mkdir anaconda
+![tela_anaconda](https://user-images.githubusercontent.com/17771257/86512262-dc9ab980-bdd6-11ea-9798-fbe287a4fb8b.JPG)
 # Acessar o diretório Anaconda
 root@ rede :/home/marcio/ Documentos# cd anaconda
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
