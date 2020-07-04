@@ -7,6 +7,7 @@ marcio @ rede: ativ$ su
 ![tela_user2](https://user-images.githubusercontent.com/17771257/86511789-b1ae6680-bdd2-11ea-989f-b3f1657f597d.JPG)
 # Atualizar o Sistema
 root@rede: ativ#  apt-get  update
+![tela_update](https://user-images.githubusercontent.com/17771257/86512114-8da05480-bdd5-11ea-930e-ac9d308ed476.JPG)
 # Verificar as dependências
 root@rede: ativ#  sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common 
 # Configurar o repositório
