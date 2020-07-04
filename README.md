@@ -13,6 +13,7 @@ root@rede: ativ#  sudo apt install apt-transport-https ca-certificates curl gnup
 ![tela_dependencias](https://user-images.githubusercontent.com/17771257/86512125-a6106f00-bdd5-11ea-8528-59237f3a818a.JPG)
 # Configurar o repositório
 root@rede: ativ # curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+![tela_repositorio_docker](https://user-images.githubusercontent.com/17771257/86512120-9db83400-bdd5-11ea-8b82-f02e6f56576b.JPG)
 # Instalar o docker
 root@rede: ativ#  apt-get install docker-ce docker.io docker-compose -y
 # Crie o diretório ANACONDA dentro de Documentos
