@@ -22,6 +22,7 @@ root@ rede :/home/marcio/ Documentos# mkdir anaconda
 ![tela_anaconda](https://user-images.githubusercontent.com/17771257/86512262-dc9ab980-bdd6-11ea-9798-fbe287a4fb8b.JPG)
 # Acessar o diretório Anaconda
 root@ rede :/home/marcio/ Documentos# cd anaconda
+![tela_ace_anaconda](https://user-images.githubusercontent.com/17771257/86512263-df95aa00-bdd6-11ea-95dd-af059ef91e01.JPG)
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
 root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
 # Será gerado um link para acesso ao Anaconda / Jupyter. Ex:localhost:8888
