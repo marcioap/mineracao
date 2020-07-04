@@ -10,6 +10,7 @@ root@rede: ativ#  apt-get  update
 ![tela_update](https://user-images.githubusercontent.com/17771257/86512114-8da05480-bdd5-11ea-930e-ac9d308ed476.JPG)
 # Verificar as dependências
 root@rede: ativ#  sudo apt install apt-transport-https ca-certificates curl gnupg2 software-properties-common 
+![tela_dependencias](https://user-images.githubusercontent.com/17771257/86512125-a6106f00-bdd5-11ea-8528-59237f3a818a.JPG)
 # Configurar o repositório
 root@rede: ativ # curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 # Instalar o docker
