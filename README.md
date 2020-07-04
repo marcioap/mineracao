@@ -6,8 +6,8 @@ Ao final da análise exploratório o dataset estará pronto para ser usado com d
 Analisar a influência dos atributos do PROUNI relacionados a concessão de bolsas utilizando dataset do PROUNI publicado no sitio dados abertos do governo federal.
 
 2. Objetivos Específicos</p>
-Extrair informações de dados abertos educacionais - PROUNI, criando base de dados do alunos para possível de ser reutilizada em outros experimentos;
-Descrever quais os atributos estruturais e não-estruturais utilizando técnicas de exploração de dados, a fim de buscar melhor compreensão do domínio do problema;
+Extrair informações de dados abertos educacionais - PROUNI, criando base de dados do alunos para possível de ser reutilizada em outros experimentos;</p>
+Descrever quais os atributos estruturais e não-estruturais utilizando técnicas de exploração de dados, a fim de buscar melhor compreensão do domínio do problema;</p>
 Contribuir com os estudos de análise de perfil de alunos e suas concessões de bolsas para utilização futuras com a utilização de técnicas de aprendizagem de máquina para extração de características únicas.
 
 # Etapas para implementação no DEBIAN
