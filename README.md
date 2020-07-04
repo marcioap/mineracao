@@ -30,11 +30,11 @@ root@ rede :/home/marcio/ Documentos# cd anaconda
 # Criar o arquivo requirements - Estrutura / Configuração do arquivo:
 ![requirements](https://user-images.githubusercontent.com/17771257/86512272-f76d2e00-bdd6-11ea-9f0c-08af83db6223.JPG)
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
-# Habilitando os serviços de Web / Anaconda / Jupyter
 root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
-
+![docker_compose_up](https://user-images.githubusercontent.com/17771257/86512528-6ba8d100-bdd9-11ea-9227-17e985cc0e70.JPG)
 # Será gerado um link para acesso ao Anaconda / Jupyter. Ex:localhost:8888
 No meu caso, como utilizei uma máquina virtual gerou: 10.0.2.15:8888
+![tela_jupyter](https://user-images.githubusercontent.com/17771257/86512537-7ebba100-bdd9-11ea-8591-1685f9d3b7a6.JPG)
 # Com o jupyter aberto, crie um arquivo: e então, só importa as bibliotecas do Python:
 # Neste caso importaremos os pacotes e o dataset
 import pandas as pd
@@ -43,14 +43,22 @@ import matplotlib.pyplot as plt
 import seaborn as sbn
 %matplotlib inline
 dados = pd.read('pasta onde se encontra o dataset')
+___________________________________________________________________________________________________________________
+
 # Visualisar o dados do data set
   dataset.head()
+  
 # Tratar dados para os valores nulo / branco ficarem com valor 0
  dataset.fillna(dataset.mean(0))
+ ![tela2 - tratamento de dados](https://user-images.githubusercontent.com/17771257/86512543-8c712680-bdd9-11ea-9a17-eac738742bc5.JPG)
 # Verificar se houve a alteração
 dataset.isnull() . sum()
 # Informações sobre os atributos
 dataset.info()
+![tela4](https://user-images.githubusercontent.com/17771257/86512549-998e1580-bdd9-11ea-845f-8529dab7655f.JPG)
+
 # Geração de graficos / Histograma
 dataset[mensalidade].hist(bins=30)
+
+![tela5](https://user-images.githubusercontent.com/17771257/86512545-91ce7100-bdd9-11ea-9da7-2ba659b62562.JPG)
 
