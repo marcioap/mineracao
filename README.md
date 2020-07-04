@@ -16,6 +16,7 @@ root@rede: ativ # curl -fsSL https://download.docker.com/linux/debian/gpg | sudo
 ![tela_repositorio_docker](https://user-images.githubusercontent.com/17771257/86512120-9db83400-bdd5-11ea-8b82-f02e6f56576b.JPG)
 # Instalar o docker
 root@rede: ativ#  apt-get install docker-ce docker.io docker-compose -y
+![tela_docker](https://user-images.githubusercontent.com/17771257/86512253-d9073280-bdd6-11ea-8ce4-2b9df2489090.JPG)
 # Crie o diretório ANACONDA dentro de Documentos
 root@ rede :/home/marcio/ Documentos# mkdir anaconda
 # Acessar o diretório Anaconda
