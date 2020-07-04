@@ -1,5 +1,5 @@
-# PROJETO PPGCA / TECNICAS DE PROGRAMAÇÃO
-O projeto é um análise exploratório no dataset do PROUNI, disponível no sítio dadosabertos.gov.br.
+# PROJETO PPGCA / TÉCNICAS DE PROGRAMAÇÃO
+O projeto é um análise exploratória no dataset do PROUNI, disponível no sítio dadosabertos.gov.br.
 Ao final da análise exploratório o dataset estará pronto para ser usado com diversos algoritmos de machine learnig para verificar a melhor acurácia / eficiência.
 # Etapas para implementação no DEBIAN
 # Acesso com usuário específico para instalação de pacotes
