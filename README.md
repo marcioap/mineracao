@@ -30,7 +30,9 @@ root@ rede :/home/marcio/ Documentos# cd anaconda
 # Criar o arquivo requirements - Estrutura / Configuração do arquivo:
 ![requirements](https://user-images.githubusercontent.com/17771257/86512272-f76d2e00-bdd6-11ea-9f0c-08af83db6223.JPG)
 # Com todos arquivos: Dockerfile, docker-compose.yml, requirements.txt dentro do Diretorio anaconda. Execute:
+# Habilitando os serviços de Web / Anaconda / Jupyter
 root@ rede :/home/marcio/Documentos/anaconda# docker-compose up
+
 # Será gerado um link para acesso ao Anaconda / Jupyter. Ex:localhost:8888
 No meu caso, como utilizei uma máquina virtual gerou: 10.0.2.15:8888
 # Com o jupyter aberto, crie um arquivo: e então, só importa as bibliotecas do Python:
