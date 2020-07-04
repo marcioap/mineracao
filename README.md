@@ -1,5 +1,5 @@
 # PROJETO PPGCA / TÉCNICAS DE PROGRAMAÇÃO
-O projeto é um análise exploratória no dataset do PROUNI, disponível no sítio dadosabertos.gov.br.
+O projeto é uma análise exploratória no dataset do PROUNI, disponível no sítio dadosabertos.gov.br.
 Ao final da análise exploratório o dataset estará pronto para ser usado com diversos algoritmos de machine learnig para verificar a melhor acurácia / eficiência.
 
 1. Objetivo Principal</p>
