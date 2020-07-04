@@ -4,6 +4,7 @@ Ao final da análise exploratório o dataset estará pronto para ser usado com d
 # Etapas para implementação no DEBIAN
 # Acesso com usuário específico para instalação de pacotes
 marcio @ rede: ativ$ su
+![tela_user2](https://user-images.githubusercontent.com/17771257/86511789-b1ae6680-bdd2-11ea-989f-b3f1657f597d.JPG)
 # Atualizar o Sistema
 root@rede: ativ#  apt-get  update
 # Verificar as dependências
