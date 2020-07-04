@@ -44,21 +44,20 @@ import seaborn as sbn
 %matplotlib inline
 dados = pd.read('pasta onde se encontra o dataset')
 ___________________________________________________________________________________________________________________
-
+![bibliotecas](https://user-images.githubusercontent.com/17771257/86512829-cd6a3a80-bddb-11ea-88d6-60282098d115.JPG)
 # Visualisar o dados do data set
   dataset.head()
-  
+  ![dados_head](https://user-images.githubusercontent.com/17771257/86512828-cc390d80-bddb-11ea-8e5f-cb249d11a9aa.JPG)
 # Tratar dados para os valores nulo / branco ficarem com valor 0
  dataset.fillna(dataset.mean(0))
  ![tela2 - tratamento de dados](https://user-images.githubusercontent.com/17771257/86512543-8c712680-bdd9-11ea-9a17-eac738742bc5.JPG)
 # Verificar se houve a alteração
 dataset.isnull() . sum()
+![tela3 - tratamento](https://user-images.githubusercontent.com/17771257/86512838-da872980-bddb-11ea-922f-b421cf74982f.JPG)
 # Informações sobre os atributos
 dataset.info()
 ![tela4](https://user-images.githubusercontent.com/17771257/86512549-998e1580-bdd9-11ea-845f-8529dab7655f.JPG)
-
 # Geração de graficos / Histograma
 dataset[mensalidade].hist(bins=30)
-
 ![tela5](https://user-images.githubusercontent.com/17771257/86512545-91ce7100-bdd9-11ea-9da7-2ba659b62562.JPG)
 
